@@ -19,7 +19,7 @@ function factorialIterative(n) {
 }
 
 // Teste de desempenho
-const n = 100;
+const n = 1000;
 
 // Tempo do fatorial recursivo
 console.time('recursivo');

@@ -21,7 +21,9 @@ public class EntregavelLista {
         System.out.println("\n--- Processamentos com STREAM ---");
 
         // a) Imprimir apenas os números pares (filter)
-        
+        List<Integer> listaPar = numeros.stream().filter(x -> x % 2 == 0).toList();
+        System.out.println(listaPar);
+
         // b) Imprimir os valores dobrados (map)
         
         // c) Imprimir os valores em ordem crescente (sorted)

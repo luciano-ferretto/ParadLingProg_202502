@@ -3,7 +3,7 @@ const greet = () => console.log("Hello, World!");
 greet();  // Saída: Hello, World!
 
 //Com um parâmetro
-const square = x => x * x;
+const square = y => y * y;
 console.log(square(5));  // Saída: 25
 
 //Com múltiplos parâmetros
